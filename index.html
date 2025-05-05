@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тесты по веб-разработке</title>
+    <link rel="icon" href="images/icon.webp" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="main">
+    <div class="container">
+        <div id="welcome-container">
+            <h1>Web-технологии</h1>
+            <p class="text1">Тест на знание основ HTML, CSS и JS</p>
+            <p class="text2">Тест содержит 30 вопросов, Вы получаете баллы за каждый правильный ответ, в конце каждого теста Вы получаете своё общее число баллов.
+                Время не ограничено. </p>
+            <div class="container2">
+                <div>
+                    <input type="text" id="username" placeholder="Введите ваше имя" />
+                </div>
+                <div>
+                    <button id="start-button">Начать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="test-container" style="display: none;">
+        <h1>Тест по веб-разработке</h1>
+        <div id="question"></div>
+        <div id="answers"></div>
+        <button id="next-button" style="display: none;">Далее</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
